@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Perfil">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perfil"
+                android:textSize="42dp"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgPerfil"
+                android:layout_width="400px"
+                android:layout_height="400px"
+                android:layout_marginBottom="15dp"
+                android:adjustViewBounds="true"
+                />
+
+
+
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TextView"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:id="@+id/txtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtUID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"/>
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="141dp"
+                android:layout_height="wrap_content"
+                android:background="#3084DD"
+                android:text="@string/log_out"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold|italic" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

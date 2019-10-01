@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Mr Jarvis</string>
+    <string name="facebook_app_id">715443842202725</string>
+    <string name="fb_login_protocol_scheme">fb644628099391779</string>
+    <string name="norecord">No record\'s found.</string>
+    <string name="home">Home</string>
+    <string name="perfil">Perfil</string>
+    <string name="mis_ofertas">Mis ofertas</string>
+    <string name="favoritos">Preferidos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="log_out">Log Out</string>
+    <string name="price">Price: </string>
+    <string name="subir_foto">Subir foto</string>
+    <string name="titulo">Titulo</string>
+    <string name="precio">Precio</string>
+    <string name="direcci_n">Dirección y barrio.</string>
+    <string name="descripci_n">Descripción</string>
+    <string name="guardar">Guardar</string>
+    <string name="celular_de_contacto">Celular de contacto.</string>
+    <string name="direccion">Dir:</string>
+
+
+    <string name="emDomiciliaria">Emergencia domestica.</string>
+    <string name="emElectrica">Emergencia electrica.</string>
+    <string name="emMecanica">Emergencia Mecanica.</string>
+    <string name="emTransporte">Emergencia de transporte.</string>
+    <string name="emPlomeria">Emergencia de plomeria.</string>
+    <string name="emEstilista">Emergencia estilista.</string>
+    <string name="emTecnologica">Emergencia tecnologica.</string>
+    <string name="emOtro">Otro tipo de emergencia.</string>
+    <string name="buscar">Buscar</string>
+    <string name="palabra_clave">Palabra clave.</string>
+
+
+    <string-array name="emergencias">
+        <item>@string/emDomiciliaria</item>
+        <item>@string/emElectrica</item>
+        <item>@string/emMecanica</item>
+        <item>@string/emTransporte</item>
+        <item>@string/emPlomeria</item>
+        <item>@string/emEstilista</item>
+        <item>@string/emTecnologica</item>
+        <item>@string/emOtro</item>
+    </string-array>
+</resources>

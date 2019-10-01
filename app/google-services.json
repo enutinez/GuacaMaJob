@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "399775746861",
+    "firebase_url": "https://mr-jarvis-edf63.firebaseio.com",
+    "project_id": "mr-jarvis-edf63",
+    "storage_bucket": "mr-jarvis-edf63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:399775746861:android:750080a242137a769e21a4",
+        "android_client_info": {
+          "package_name": "com.enuar.prueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "399775746861-1knpqvtkpoosfb8imbbmgs77al3452oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enuar.prueba",
+            "certificate_hash": "d17fe8cac1a07bdcde6e8e39bf77c75e001b29cf"
+          }
+        },
+        {
+          "client_id": "399775746861-sduquml76lc7or7qf9afpo135iuqi3sa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv6Vz4RTAgCmqmDmN0gNyH7zogch3ckRI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "399775746861-sduquml76lc7or7qf9afpo135iuqi3sa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

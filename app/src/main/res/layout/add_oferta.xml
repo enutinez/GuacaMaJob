@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddOferta">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/txtTituloOf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/titulo"
+                android:inputType="textPersonName"
+                android:textColor="@color/azulclaro"/>
+
+            <EditText
+                android:id="@+id/txtPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/precio"
+                android:inputType="numberDecimal"
+                android:textColor="@color/azulclaro"/>
+
+            <EditText
+                android:id="@+id/txtCell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/celular_de_contacto"
+                android:inputType="phone"
+                android:textColor="@color/azulclaro"/>
+
+            <EditText
+                android:id="@+id/txtDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="@string/direcci_n"
+                android:textColor="@color/azulclaro"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/txtDescripcion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:gravity="center|top"
+                android:hint="@string/descripci_n"
+                android:inputType="textMultiLine"
+                android:textColor="@color/azulclaro"/>
+
+            <Spinner
+                android:id="@+id/Temergencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/btnGuardarOf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="GuardarDB"
+                android:text="@string/guardar" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
